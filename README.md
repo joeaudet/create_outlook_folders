@@ -9,7 +9,7 @@ Inbox
 --Sub Folder 2
 --Etc
 
-The script will iterate through the array, check if each folder exists and if not create it. This allows for future updates to the subfolder list without causing any issues or modifying folders already present.
+The script will first check to see if the Inbox\Mailing Lists folder exists, if not create it. Then it will iterate through the mailing_lists_array, check if each folder exists and if not create it. This allows for future updates to the subfolder list without causing any issues or modifying folders already present.
 
 Confirmed working on:
 Outlook 2016
