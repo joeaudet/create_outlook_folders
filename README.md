@@ -13,3 +13,8 @@ The script will first check to see if the Inbox\Mailing Lists folder exists, if 
 
 Confirmed working on:
 Outlook 2016
+
+Download the ZIP file, extract it somewhere. Open powershell, change to the directory you just extracted the files to and run the script.
+
+Please note this isn't signed, so you will have to allow unsigned scripts:
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6
